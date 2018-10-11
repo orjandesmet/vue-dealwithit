@@ -1,11 +1,17 @@
 {
-  "name": "dealwithit",
-  "version": "0.1.0",
+  "name": "vue-dealwithit",
+  "description": "A custom element to deal with it written in VueJS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orjandesmet/vue-dealwithit.git"
+  },
+  "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "license": "MIT",
   "dependencies": {
     "@vue/web-component-wrapper": "^1.2.0",
     "vue": "^2.5.17"
