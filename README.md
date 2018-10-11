@@ -1,4 +1,6 @@
-# dealwithit
+# vue-dealwithit
+
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vue-dealwithit)
 
 Set the sizePercentage attribute (default = 100)
 
