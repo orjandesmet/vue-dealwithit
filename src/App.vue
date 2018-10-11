@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <deal-with-it :display-at="displayAt"></deal-with-it>
+    <button type="button" @click="showTheGlasses()">Click me</button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DealWithIt from './components/DealWithIt.vue'
 
 export default {
   name: 'app',
+  data: () => ({
+    displayAt: null,
+  }),
   components: {
-    HelloWorld
+    DealWithIt
+  },
+  methods: {
+    showTheGlasses() {
+      this.displayAt = { top: 20, left: 30 };
+    }
   }
 }
 </script>

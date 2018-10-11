@@ -1,5 +1,12 @@
 # dealwithit
 
+To display, run:
+```
+vm.displayAt = {top: 30, left: 40};
+```
+
+To hide, click the shades
+
 ## Project setup
 ```
 yarn install
